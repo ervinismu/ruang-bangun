@@ -5,6 +5,6 @@ class Cube
 
   def volume()
     formula = @i**3
-    puts "#{formula}"
+    return formula
   end
 end
