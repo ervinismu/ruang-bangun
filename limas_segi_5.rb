@@ -7,8 +7,10 @@ class LimasSegiLima
     end
 
     def volume()
-        vol = 5*@Width*@leght*@heigh/6.to_f
-        puts "Volume Limas Segi 5 adalah #{vol.round(2)}"
+        vol = 5*@Width*@leght*@heigh/6.to_f.round(2)
+        puts vol.round(2)
     end
 end
 
+volum = LimasSegiLima.new(2,2,2)
+volum.volume
