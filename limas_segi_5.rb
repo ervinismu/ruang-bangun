@@ -11,6 +11,3 @@ class LimasSegiLima
         puts vol.round(2)
     end
 end
-
-volum = LimasSegiLima.new(2,2,2)
-volum.volume
