@@ -1,11 +1,15 @@
 # bola.rb
+class Bola
+    @@pi = 3.14
+    def initialize(r)
+        # set rumus volume bola
+        @r = r
+        
+    end
 
-puts "Rumus volume bola adalah:"
-puts "========================="
-puts "phi x r x r x r"
-puts "========================="
-puts "input nilai r:"
-r = gets.chomp.to_i
-volume = 3.14 * r * r *r
+    def volume_bola
+        return @@pi * @r * @r *@r
+    end
 
-puts "Volume bola dengan r = #{r} adalah #{volume}"
+
+end
