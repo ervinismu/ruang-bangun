@@ -1,4 +1,4 @@
-class BangunRuang
+class Kerucut
 
     def initialize(r , t)
         @jari = r 
