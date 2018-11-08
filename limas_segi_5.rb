@@ -8,6 +8,6 @@ class LimasSegiLima
 
     def volume()
         vol = 5*@Width*@leght*@heigh/6.to_f
-        puts vol.round(2)
+        return vol.round(2)
     end
 end
